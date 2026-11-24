@@ -1,0 +1,6 @@
+torch>=2.0
+torchvision>=0.15
+numpy>=1.24
+Pillow>=10.0
+# OpenAI CLIP (text/image encoders for the semantic gate)
+# pip install git+https://github.com/openai/CLIP.git

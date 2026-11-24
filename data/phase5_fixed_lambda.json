@@ -1,0 +1,36 @@
+{
+  "source": "existing phase5 lambda-scan json (no new GPU run)",
+  "fixed_lambda": 10,
+  "splits": {
+    "1": {
+      "baseline_novel": 0.2406,
+      "lam10_novel": 0.3226,
+      "gain_pp": 8.2,
+      "best_lambda": "10",
+      "best_gain_pp": 8.2,
+      "gap_pp": 0.0,
+      "base_delta_pp": 0.5
+    },
+    "2": {
+      "baseline_novel": 0.3847,
+      "lam10_novel": 0.4064,
+      "gain_pp": 2.17,
+      "best_lambda": "6",
+      "best_gain_pp": 4.19,
+      "gap_pp": 2.02,
+      "base_delta_pp": 0.14
+    },
+    "3": {
+      "baseline_novel": 0.3132,
+      "lam10_novel": 0.4734,
+      "gain_pp": 16.02,
+      "best_lambda": "10",
+      "best_gain_pp": 16.02,
+      "gap_pp": 0.0,
+      "base_delta_pp": 0.95
+    }
+  },
+  "all_gains_positive": true,
+  "all_base_nonneg": true,
+  "mean_gap_pp": 0.67
+}

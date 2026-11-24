@@ -1,0 +1,11 @@
+# datasets, weights and caches are large local assets — keep them out
+datasets/
+torch_home/
+runs/
+*.pt
+*.pth
+*.npz
+*.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
